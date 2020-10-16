@@ -34,12 +34,14 @@ closeButton.onclick = callUsBlockClose;
 const mobileMenu = document.querySelector('.mobile-menu');
 const navItemMenu = document.querySelector('.nav-item-menu');
 const menuClose = document.querySelector('.menu-close');
+const header = document.querySelector('.header');
 
 function mobileMenuOpen () {
 	mobileMenu.style.opacity = '1';
 	mobileMenu.style.top = '4rem';
 	navItemMenu.style.display = 'none';
 	menuClose.style.display = 'block';
+	header.style.background = '#eee';
 }
 
 function mobileMenuClose () {
@@ -48,6 +50,7 @@ function mobileMenuClose () {
 	navItemMenu.style.display = 'block';
 	navItemMenu.style.opacity = '1';
 	menuClose.style.display = 'none';
+	header.style.background = 'rgba(255, 255, 255, 0.98)';
 }
 
 navItemMenu.onclick = mobileMenuOpen;
