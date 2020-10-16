@@ -46,6 +46,7 @@ function mobileMenuClose () {
 	mobileMenu.style.opacity = '0';
 	mobileMenu.style.top = '-30rem';
 	navItemMenu.style.display = 'block';
+	navItemMenu.style.opacity = '1';
 	menuClose.style.display = 'none';
 }
 
