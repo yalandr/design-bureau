@@ -29,3 +29,7 @@ $(document).ready(function () {
 		$('body').toggleClass('lock');
 	});
 });
+
+// Wow JS init
+
+new WOW().init();
