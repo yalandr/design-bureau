@@ -90,12 +90,13 @@ body {
 	-webkit-box-shadow: 0 3px 5px #bbb;
 			box-shadow: 0 3px 5px #bbb;
 	overflow: auto;
-	top: -100%;
+	top: 4rem;
+	right: -100%;
 	transition: .6s;
 }
 
 .mobile-menu.active {
-	top: 4rem;
+	right: 0;
 }
 
 .mobile-nav-item {
@@ -105,6 +106,7 @@ body {
 	padding: 1.5rem 0;
 	border-bottom: 1px solid #ccc;
 	cursor: pointer;
+	transition: .4s;
 }
 
 /*==== Call Us Block ===============*/
