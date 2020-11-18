@@ -28,6 +28,10 @@ $(document).ready(function () {
 		$('.header-burger, .mobile-menu').toggleClass('active');
 		$('body').toggleClass('lock');
 	});
+	$('.mobile-nav-item').click(function (event) {
+		$('.header-burger, .mobile-menu').removeClass('active');
+		$('body').removeClass('lock');
+	})
 });
 
 // Wow JS init
